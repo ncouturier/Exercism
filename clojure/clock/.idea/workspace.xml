@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51869db0-66e7-4397-80f4-28d4cf30037d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dgG2hCRBoliB9LKPgQynKpjRnC" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ReplState" timestamp="1596701172474">{:repl-history {:ide [], :local [{:command &quot;(format \&quot;:%M\&quot; 3)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(ns clock)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(use 'java-time)&quot;, :offset 16, :ns &quot;clock&quot;} {:command &quot; (local-time 10)&quot;, :offset 16, :ns &quot;clock&quot;} {:command &quot;(require '(java-time))&quot;, :offset 22, :ns &quot;clock&quot;} {:command &quot;(defn clock-&gt;string [clock]\n    (format \&quot;%k:%M\&quot; (java-time/local-time (:hours @clock) (:minutes @clock))))&quot;, :offset 106, :ns &quot;clock&quot;} {:command &quot;(defn clock [hours minutes]\n    (atom {:hours hours\n           :minutes minutes}))&quot;, :offset 82, :ns &quot;clock&quot;} {:command &quot; (clock-&gt;string (clock 10 10))&quot;, :offset 30, :ns &quot;clock&quot;} {:command &quot;(clock 10 10)&quot;, :offset 13, :ns &quot;clock&quot;} {:command &quot;(java-time/local-time 10 10 )&quot;, :offset 29, :ns &quot;clock&quot;} {:command &quot;(java-time/local-time (:hours @clock) (:minutes @clock))&quot;, :offset 56, :ns &quot;clock&quot;} {:command &quot;(defn clock-&gt;string [clock]\n    (let [hours (:hours @clock) minutes (:minutes @clock)]\n        (format \&quot;%k:%M\&quot; (java-time/local-time hours minutes))))&quot;, :offset 150, :ns &quot;clock&quot;} {:command &quot;(defn clock-&gt;string [clock]\n    (let [hours (:hours @clock) minutes (:minutes @clock)]\n        (java-time/format \&quot;%k:%M\&quot; (java-time/local-time hours minutes))))&quot;, :offset 160, :ns &quot;clock&quot;} {:command &quot;(defn clock-&gt;string [clock]\n    (let [hours (:hours @clock) minutes (:minutes @clock)]\n        (java-time/format \&quot;%k:%MZ\&quot; (java-time/local-time hours minutes))))&quot;, :offset 161, :ns &quot;clock&quot;} {:command &quot;(clock-&gt;string (clock 10 10 ))&quot;, :offset 30, :ns &quot;clock&quot;} {:command &quot;(source java-time/with-clock)&quot;, :offset 29, :ns &quot;clock&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="clock" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51869db0-66e7-4397-80f4-28d4cf30037d" name="Default Changelist" comment="" />
+      <created>1592839116677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592839116677</updated>
+    </task>
+    <servers />
+  </component>
+</project>
